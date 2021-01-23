@@ -6,6 +6,8 @@ $(function() {
                 insertTexts: {
                     // override image insert button
                     image: ["<details>\n<summary>", "</summary>\n<!-- you must insert blank line -->\n\n</details>"],
+                    // override link insert button
+                    link: ["[[_TOC_]]", ""],
                 },
                 autofocus: true,
                 forceSync: true,
@@ -22,6 +24,12 @@ $(function() {
                         action: SimpleMDE.drawImage,
                         className: "fa fa-plus-square",
                         title: "Expand",
+                    },
+                    {
+                        name: "TOC",
+                        action: SimpleMDE.drawLink,
+                        className: "fas fa-indent",
+                        title: "TOC",
                     }
                 ]
             });
