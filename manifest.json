@@ -14,10 +14,7 @@
         "highlight.min.js",
         "script.js"
       ],
-      "css": [
-        "simplemde.min.css",
-        "github.min.css"
-      ],
+      "css": ["simplemde.min.css", "github.min.css"],
       "run_at": "document_start"
     }
   ]
