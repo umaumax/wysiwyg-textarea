@@ -1,14 +1,11 @@
 {
   "name": "wysiwyg-textarea",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "manifest_version": 2,
   "description": "You can edit textarea under wysiwyg mode",
   "content_scripts": [
     {
-      "matches": [
-        "https://gitlab.com/*/wikis/*/edit",
-        "https://gitlab.com/*/wikis/*?random_title=true"
-      ],
+      "matches": ["https://gitlab.com/*/wikis/*/edit"],
       "js": [
         "jquery.min.js",
         "simplemde.min.js",

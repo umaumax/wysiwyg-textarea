@@ -13,6 +13,10 @@ wget https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js
 wget https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css
 ```
 
+## Problems
+* GitLab wiki `New page`
+  * `forceSync`は有効に機能し，textareaのvalueに値が設定されるが，textareのviewやpreviewやCreate pageを押すためのフラグは別に管理されている模様なので，このページでは無効化している
+
 ## FYI
 GitLab issues
 * [add some wysiwyg to the markdown editor inside of gitlab \(\#33667\) · Issues · GitLab\.org / GitLab FOSS · GitLab]( https://gitlab.com/gitlab-org/gitlab-foss/-/issues/33667 )
