@@ -2,6 +2,8 @@
 
 For GitLab wiki edit
 
+NOTE: [Edit wiki pages with the WYSIWYG Markdown editor]( https://about.gitlab.com/releases/gitlab-com/#edit-wiki-pages-with-the-wysiwyg-markdown-editor ) is introduced at GitLab 14.0
+
 ## dependency
 [JavaScript Markdown Editor \- SimpleMDE]( https://simplemde.com/ )
 
